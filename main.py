@@ -128,4 +128,8 @@ def train():
 
 notebook_launcher(train)
 
-#### RETURN ERROR DUE torch_XLA compatibility
+### RETURN ERROR DUE torch_XLA compatibility"
+# /usr/local/lib/python3.10/dist-packages/torch_xla/__init__.py in <module>
+# ----> 1 raise ImportError("WRONG PACKAGE. Please install the package from Neuron Repository - pip.repos.neuron.amazonaws.com")
+
+# ImportError: WRONG PACKAGE. Please install the package from Neuron Repository - pip.repos.neuron.amazonaws.com
