@@ -1,7 +1,8 @@
 # CNN_dailymail_Summarization_with_T5_on_TPU
 
 ## Introduction
-In this project, we use transfer learning with the model T5 to summarize new articles from CNN and the dailymail. In the implementation, we use the [Huggingface accelerate] (https://github.com/huggingface/accelerate) so it can run on TPU. 
+In this project, we use transfer learning with the model T5 to summarize new articles from CNN and the dailymail. In the implementation, we use the [Huggingface accelerate](https://github.com/huggingface/accelerate) so it can run on TPU. 
+
 The code in this project was inpired by: [https://github.com/NielsRogge/Transformers-Tutorials/tree/master/T5](https://github.com/NielsRogge/Transformers-Tutorials/tree/master/T5)
 
 ## Text-To-Text Transfer Transformer (T5)
