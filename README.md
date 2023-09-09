@@ -3,7 +3,7 @@
 ## Introduction
 In this project, we use transfer learning with the model T5 to summarize new articles from CNN and the dailymail. In the implementation, we use the [Huggingface accelerate](https://github.com/huggingface/accelerate) so it can run on TPU. 
 
-The code in this project was inpired by: [https://github.com/NielsRogge/Transformers-Tutorials/tree/master/T5](https://github.com/NielsRogge/Transformers-Tutorials/tree/master/T5)
+This project was inpired by: [https://github.com/NielsRogge/Transformers-Tutorials/tree/master/T5](https://github.com/NielsRogge/Transformers-Tutorials/tree/master/T5)
 
 ## Text-To-Text Transfer Transformer (T5)
 T5 is a transformer-based model that introduced a novel concept of framing all NLP tasks as text-to-text problems. This means that both the input and ouput are sequences of text. This model is pre-trained on a large corpus of text in an unsupervised way, then it is fine-tuned for various NLP tasks like translation, question answering, sentiment classification, etc. [\[1\]](https://www.jmlr.org/papers/volume21/20-074/20-074.pdf)
